@@ -21,7 +21,7 @@ const LOCATIONS = [
 
 export default function LeafletMap() {
   const { category, selectedLocationId } = useMapStore()
-  const [L, setL] = useState<typeof import('react-leaflet')>(null)
+  const [L, setL] = useState<typeof import('react-leaflet')>()
 
   useEffect(() => {
     import('react-leaflet').then(setL)
