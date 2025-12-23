@@ -1,9 +1,9 @@
-import Sidebar from "@/components/fragments/explore/Sidebar";
+import SidebarWrapper from "@/components/fragments/explore/SidebarWrapper";
 
 export default function ExploreLayout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex">
-      <Sidebar />
+      <SidebarWrapper />
       <main className="flex-1">
         {children}
       </main>

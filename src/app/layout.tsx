@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
-import '@/styles/globals.css'
 import { Providers } from "./providers";
+import './../styles/globals.css'
 
 export const metadata: Metadata = {
   title: 'Cari Tempat Kota Sukabumi',
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" suppressHydrationWarning>
-      <body>
+      <body suppressHydrationWarning>
         <Providers>
           {children}
         </Providers>

@@ -6,16 +6,46 @@ import 'leaflet/dist/leaflet.css'
 
 const LOCATIONS = [
   {
-    id: 'loc-1',
+    id: 'health-1',
     name: 'RSUD Sukabumi',
     category: 'health',
-    position: [-6.917, 106.926],
+    position: [-6.9149114280274535, 106.93519925449246],
   },
   {
-    id: 'loc-2',
-    name: 'Cafe Contoh',
-    category: 'food',
-    position: [-6.92, 106.93],
+    id: 'health-2',
+    name: 'RSI Assyifa',
+    category: 'health',
+    position: [-6.918940383249558, 106.91740816746577],
+  },
+  {
+    id: 'health-3',
+    name: 'RS Kartika',
+    category: 'health',
+    position: [-6.921823014403176, 106.92435346245806],
+  },
+  {
+    id: 'health-4',
+    name: 'RS Hermina',
+    category: 'health',
+    position: [-6.8943130354705735, 107.03156933580115],
+  },
+  {
+    id: 'health-5',
+    name: 'RS Betha Medika',
+    category: 'health',
+    position: [-6.9027424292215604, 106.88328638466362],
+  },
+  {
+    id: 'health-6',
+    name: 'RS Bhayangkara Setukpa Lemdikpol Polri',
+    category: 'health',
+    position: [-6.912023468392641, 106.9224983071567],
+  },
+  {
+    id: 'fuel-1',
+    name: 'SPBU Sukabumi 34 - 43105',
+    category: 'fuel',
+    position: [-6.919052866084563, 106.92096403541422],
   },
 ]
 
