@@ -20,7 +20,7 @@ const LOCATIONS = [
 ]
 
 export default function LeafletMap() {
-  const { category, selectedLocationId } = useMapStore()
+  const { category } = useMapStore()
   const [L, setL] = useState<typeof import('react-leaflet')>()
 
   useEffect(() => {
@@ -45,7 +45,7 @@ export default function LeafletMap() {
 
       {filtered.map(loc => (
         <Marker key={loc.id} position={loc.position as [number, number]}>
-          <Popup autoOpen={loc.id === selectedLocationId}>
+          <Popup>
             {loc.name}
           </Popup>
         </Marker>
