@@ -12,6 +12,8 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+Node.js v22.14 
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
